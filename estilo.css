@@ -1,0 +1,412 @@
+body {
+	background-color: #e5e5e5;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-align-center {
+	display: flex;
+	align-items: center;
+}
+
+strong {
+	font-weight: 500;
+}
+
+span,
+p {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 300;
+	color: #262626;
+}
+
+.fonte-14 {
+	font-size: 14px;
+}
+
+nav {
+	height: 54px;
+	width: 100%;
+
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: #ffffff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	z-index: 1;
+}
+
+nav ion-icon,
+.legenda ion-icon,
+.barra-inferior ion-icon {
+	font-size: 22px;
+}
+
+.logo {
+	width: 146px;
+
+	display: flex;
+}
+
+.dm {
+	display: none;
+}
+
+nav img {
+	/*logo-texto instagram*/
+	width: 103px;
+	height: 29px;
+}
+
+.separador-vertical {
+	width: 1px;
+	height: 22px;
+
+	background-color: #dbdbdb;
+
+	margin: 0 10px;
+}
+
+.caixa-pesquisa {
+	width: 215px;
+	height: 28px;
+
+	border-radius: 3px;
+
+	background-color: #fafafa;
+}
+
+.caixa-pesquisa p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	color: #979797;
+
+	margin-top: 7px;
+}
+
+.icones {
+	width: 148px;
+}
+
+main {
+	width: 935px;
+
+	margin: 54px auto 0 auto;
+
+	display: flex;
+}
+
+.caixa-stories {
+	width: 614px;
+	height: 118px;
+
+	display: flex;
+
+	margin-top: 34px;
+	border-radius: 3px;
+
+	background-color: #ffffff;
+	border: solid 1px #dbdbdb;
+
+	position: relative;
+
+	overflow: hidden;
+}
+
+.stories {
+	width: 66px;
+	height: 118px;
+
+	margin-right: 14px;
+
+	position: relative;
+}
+
+.username {
+	margin-top: 7px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	text-align: center;
+}
+
+.caixa-stories ion-icon {
+	/*Seta nos stories*/
+	color: rgba(255, 255, 255, 0.8);
+
+	position: absolute;
+	top: 40px;
+	right: 10px;
+
+	filter: drop-shadow(-3px 5px 4px #d4d4d4);
+
+	font-size: 26px;
+}
+
+.stories-imagem {
+	height: 66px;
+	width: 66px;
+
+	margin-top: 18px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto-perfil,
+.meu-perfil img {
+	width: 56px;
+	border-radius: 50%;
+
+	position: relative;
+}
+
+.background {
+	width: 66px;
+
+	position: absolute;
+}
+
+.caixa-stories .stories:first-child {
+	margin-left: 18px;
+}
+
+.post {
+	width: 614px;
+	height: 749px;
+
+	border-radius: 3px;
+	margin-bottom: 60px;
+
+	background-color: #fff;
+}
+
+.posts .post:first-child {
+	margin-top: 24px;
+}
+
+.posts .post:last-child {
+	margin-bottom: 0;
+}
+
+.post img {
+	width: 612px;
+	height: 612px;
+
+	margin-left: 1px;
+	object-fit: contain;
+}
+
+video {
+	width: 612px;
+	height: 612px;
+}
+
+.info-perfil {
+	height: 61px;
+}
+
+.info-perfil img {
+	width: 32px;
+	height: 32px;
+
+	margin-left: 17px;
+	border-radius: 50%;
+}
+
+.info span {
+	margin-left: 15px;
+}
+
+.info-perfil ion-icon {
+	margin: 23px 17px 0 0;
+
+	font-size: 16px;
+}
+
+.legenda {
+	display: flex;
+	flex-direction: column;
+
+	height: 76px;
+}
+
+.buttons span {
+	width: 96px;
+	height: 22px;
+
+	margin: 10px 0 0 15px;
+}
+
+.buttons > ion-icon {
+	height: 22px;
+	width: 22px;
+
+	margin: 14px 17px 0 0;
+}
+
+.curtidas {
+	display: flex;
+}
+
+.curtidas img {
+	width: 20px;
+	height: 20px;
+
+	border-radius: 50%;
+	margin: 5px 0 0 17px;
+}
+
+.curtidas span {
+	margin: 10px 0 0 5px;
+}
+
+aside {
+	width: 280px;
+	height: 450px;
+
+	margin: 34px 0 0 29px;
+
+	position: sticky;
+	top: 88px;
+}
+
+.meu-perfil {
+	padding: 25px 0 0 5px;
+	margin-bottom: 15px;
+}
+
+.meu-perfil span {
+	margin-left: 5px;
+
+	line-height: 20px;
+}
+
+.meu-perfil span:last-child,
+.texto-sugestoes span:first-child,
+.usuario span:last-child {
+	color: #8e8e8e;
+}
+
+.sugestao {
+	width: 280px;
+	height: 35px;
+
+	margin-top: 10px;
+}
+
+.sugestao > span {
+	color: #139ef2;
+
+	margin-right: 15px;
+}
+
+.usuario img {
+	width: 32px;
+	height: 32px;
+
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.usuario > span {
+	margin-left: 5px;
+
+	line-height: 18px;
+}
+
+.usuario {
+	display: flex;
+
+	line-height: 15px;
+}
+
+.texto-sugestoes {
+	width: 95%;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 25px;
+}
+
+footer span {
+	font-size: 11px;
+	color: #8e8e8e;
+}
+
+.barra-inferior {
+	display: none;
+}
+
+@media (max-width: 935px) {
+	aside {
+		display: none;
+	}
+
+	.principal {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 614px) {
+	main {
+		width: 100%;
+
+		margin: 54px 0;
+	}
+
+	.barra-inferior {
+		display: flex;
+		justify-content: space-around;
+
+		background-color: #fff;
+
+		height: 54px;
+		width: 100%;
+
+		position: fixed;
+		bottom: 0;
+	}
+	.caixa-stories ion-icon,
+	.caixa-pesquisa,
+	.separador-vertical,
+	.icones {
+		display: none;
+	}
+
+	.caixa-stories {
+		background-color: transparent;
+
+		border: none;
+		margin: 0;
+	}
+	.posts .post:first-child {
+		margin-top: 0;
+	}
+
+	.dm {
+		display: initial;
+	}
+
+	.logo {
+		width: 100%;
+
+		justify-content: space-around;
+	}
+}
